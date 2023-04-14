@@ -1,6 +1,6 @@
-# Animation In Flutter
+# Animations In Flutter
 
-A new Flutter project with planty of example of Animation In Flutter.
+A new Flutter project with planty of example of Animations In Flutter.
 
 ## Hero Animation
 
