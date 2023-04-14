@@ -1,4 +1,4 @@
-# animation_in_flutter
+# Animation In Flutter
 
 A new Flutter project with planty of example of Animation In Flutter.
 
