@@ -1,10 +1,10 @@
-# animation_in_flutter
+# Animations In Flutter
 
-A new Flutter project.
+A new Flutter project with planty of example of Animations In Flutter.
 
-## Getting Started
+## Hero Animation
 
-This project is a starting point for a Flutter application.
+This is the first example of animtion in Flutter a famous one Hero Animation.
 
 A few resources to get you started if this is your first Flutter project:
 
