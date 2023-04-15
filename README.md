@@ -4,7 +4,11 @@ A new Flutter project with planty of example of Animations In Flutter.
 
 ## Hero Animation
 
-This is the first example of animtion in Flutter a famous one Hero Animation.
+This is the first example of animation in Flutter a famous one Hero Animation.
+
+## Implicit Animation
+
+This is the second examplet of animation in Flutter a simple one that pops up image.
 
 A few resources to get you started if this is your first Flutter project:
 
