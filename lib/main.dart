@@ -1,5 +1,7 @@
-import 'package:animation_in_flutter/examples/implicit_animation.dart';
 import 'package:flutter/material.dart';
+
+import 'routes/routes.dart';
+import 'routes/routes_name.dart';
 
 void main() {
   runApp(
@@ -13,12 +15,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Animation In Flutter',
+      title: 'Animations In Flutter',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ImplicitAnimations(),
+      initialRoute: RoutesName.homepage,
+      onGenerateRoute: Routes.generateRoutes,
     );
   }
 }
