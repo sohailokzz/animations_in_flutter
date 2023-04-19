@@ -14,6 +14,9 @@ This is the second examplet of animation in Flutter a simple one that pops up im
 
 This is the third examplet of animation in Flutter a very famous one Lottie Animation it looks difficault but it's very easy compare to other ones.
 
+## Tween Colors Animation
+This is fourth example of animation in Flutter with TweenAnimatedBuilder, CustomClipper and ClipPath so with that we learn Tween Colors Animation in Flutter.
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)

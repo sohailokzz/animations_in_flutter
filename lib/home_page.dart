@@ -46,6 +46,16 @@ class HomePage extends StatelessWidget {
               },
               child: const Text('Lottie Animation'),
             ),
+            10.ph,
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(
+                  context,
+                  RoutesName.tweenanimation,
+                );
+              },
+              child: const Text('Tween Color Animation'),
+            ),
           ],
         ),
       ),

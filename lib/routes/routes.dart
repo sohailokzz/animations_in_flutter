@@ -1,6 +1,7 @@
 import 'package:animation_in_flutter/examples/hero_animation.dart';
 import 'package:animation_in_flutter/examples/implicit_animation.dart';
 import 'package:animation_in_flutter/examples/lottie_animation.dart';
+import 'package:animation_in_flutter/examples/tween_color_animation.dart';
 import 'package:flutter/material.dart';
 
 import '../home_page.dart';
@@ -27,6 +28,11 @@ class Routes {
       case RoutesName.lottieanimation:
         return MaterialPageRoute(
           builder: (BuildContext context) => const LottieAnimation(),
+        );
+
+      case RoutesName.tweenanimation:
+        return MaterialPageRoute(
+          builder: (BuildContext context) => const TweenColorAnimation(),
         );
 
       default:
