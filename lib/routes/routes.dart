@@ -1,3 +1,4 @@
+import 'package:animation_in_flutter/examples/chained_animation.dart';
 import 'package:animation_in_flutter/examples/hero_animation.dart';
 import 'package:animation_in_flutter/examples/implicit_animation.dart';
 import 'package:animation_in_flutter/examples/lottie_animation.dart';
@@ -33,6 +34,11 @@ class Routes {
       case RoutesName.tweenanimation:
         return MaterialPageRoute(
           builder: (BuildContext context) => const TweenColorAnimation(),
+        );
+
+      case RoutesName.chainedanimation:
+        return MaterialPageRoute(
+          builder: (BuildContext context) => const ChainedAnimation(),
         );
 
       default:

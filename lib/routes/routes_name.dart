@@ -4,4 +4,5 @@ class RoutesName {
   static const String implicitanimation = 'implicit_animation';
   static const String lottieanimation = 'lottie_animations';
   static const String tweenanimation = 'tween_animations';
+  static const String chainedanimation = 'chained_animation';
 }
