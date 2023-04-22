@@ -17,6 +17,9 @@ This is the third examplet of animation in Flutter a very famous one Lottie Anim
 ## Tween Colors Animation
 This is fourth example of animation in Flutter with TweenAnimatedBuilder, CustomClipper and ClipPath so with that we learn Tween Colors Animation in Flutter.
 
+## Chained Animation
+This is fifth example of animation in Flutter with Curves and Clippers, CustomClipper,ClipPath and Curves so with that we learn Chained Animation in Flutter.
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)

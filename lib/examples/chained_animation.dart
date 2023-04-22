@@ -110,7 +110,7 @@ class _ChainedAnimationState extends State<ChainedAnimation>
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Chained Animation'),
+        title: const Text('Chained Animations'),
       ),
       body: Center(
         child: AnimatedBuilder(
