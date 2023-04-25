@@ -2,6 +2,7 @@ import 'package:animation_in_flutter/examples/chained_animation.dart';
 import 'package:animation_in_flutter/examples/hero_animation.dart';
 import 'package:animation_in_flutter/examples/implicit_animation.dart';
 import 'package:animation_in_flutter/examples/lottie_animation.dart';
+import 'package:animation_in_flutter/examples/three_d_animation.dart';
 import 'package:animation_in_flutter/examples/tween_color_animation.dart';
 import 'package:flutter/material.dart';
 
@@ -39,6 +40,11 @@ class Routes {
       case RoutesName.chainedanimation:
         return MaterialPageRoute(
           builder: (BuildContext context) => const ChainedAnimation(),
+        );
+
+      case RoutesName.threedanimation:
+        return MaterialPageRoute(
+          builder: (BuildContext context) => const ThreeDAnimation(),
         );
 
       default:

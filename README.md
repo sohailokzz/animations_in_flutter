@@ -20,6 +20,9 @@ This is fourth example of animation in Flutter with TweenAnimatedBuilder, Custom
 ## Chained Animation
 This is fifth example of animation in Flutter with Curves and Clippers, CustomClipper,ClipPath and Curves so with that we learn Chained Animation in Flutter.
 
+## 3D Animation
+This is sixth example of animation in Flutter with 3 D Effect so with that we learn 3D Animation in Flutter.
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
