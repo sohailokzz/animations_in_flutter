@@ -1,6 +1,7 @@
 import 'package:animation_in_flutter/spacing.dart';
 import 'package:flutter/material.dart';
 
+import 'common/reusable_button.dart';
 import 'routes/routes_name.dart';
 
 class HomePage extends StatelessWidget {
@@ -17,64 +18,64 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ElevatedButton(
-              onPressed: () {
+            ReusableButton(
+              buttonTitle: 'Hero Animation',
+              onTap: () {
                 Navigator.pushNamed(
                   context,
                   RoutesName.heroanimation,
                 );
               },
-              child: const Text('Hero Animation'),
             ),
-            10.ph,
-            ElevatedButton(
-              onPressed: () {
+            12.ph,
+            ReusableButton(
+              buttonTitle: 'Implicit Animation',
+              onTap: () {
                 Navigator.pushNamed(
                   context,
                   RoutesName.implicitanimation,
                 );
               },
-              child: const Text('Implicit Animation'),
             ),
-            10.ph,
-            ElevatedButton(
-              onPressed: () {
+            12.ph,
+            ReusableButton(
+              buttonTitle: 'Lottie Animation',
+              onTap: () {
                 Navigator.pushNamed(
                   context,
                   RoutesName.lottieanimation,
                 );
               },
-              child: const Text('Lottie Animation'),
             ),
-            10.ph,
-            ElevatedButton(
-              onPressed: () {
+            12.ph,
+            ReusableButton(
+              buttonTitle: 'Tween Color Animation',
+              onTap: () {
                 Navigator.pushNamed(
                   context,
                   RoutesName.tweenanimation,
                 );
               },
-              child: const Text('Tween Color Animation'),
             ),
-            10.ph,
-            ElevatedButton(
-              onPressed: () {
+            12.ph,
+            ReusableButton(
+              buttonTitle: 'Chained Animation',
+              onTap: () {
                 Navigator.pushNamed(
                   context,
                   RoutesName.chainedanimation,
                 );
               },
-              child: const Text('Chained Animation'),
             ),
-            10.ph,
-            ElevatedButton(
-              onPressed: () {
+            12.ph,
+            ReusableButton(
+              buttonTitle: '3D Animation',
+              onTap: () {
                 Navigator.pushNamed(
                   context,
                   RoutesName.threedanimation,
                 );
               },
-              child: const Text('3D Animation'),
             ),
           ],
         ),
