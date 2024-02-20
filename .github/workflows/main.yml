@@ -27,7 +27,7 @@ jobs:
       - run: flutter build apk --release --split-per-abi
 # Build IPA for testing purposes (unsigned)
       - run: |
-          flutter build ios
+          flutter build
           cd build/ios/iphoneos
           mkdir Payload
           cd Payload
